@@ -1,8 +1,6 @@
 # Scripps-Light-Attenuation-Capstone-Project
 
-Trying first commit -Aarti
-
-Hi - Anna
+[Research at Scripps]([url](https://scripps.ucsd.edu/))
 
 Light Attenuation in the CCE: Deriving Water Clarity from PAR, Secchi Depth and Satellite Data
 
