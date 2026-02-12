@@ -1,3 +1,39 @@
+# Python
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+.scripps/
+env/
+venv/
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Large raw datasets (DO NOT PUSH)
+Data/*.csv
+Data/**/*.csv
+Data/CalCOFIapi/
+
+# Jupyter outputs
+*.ipynb_checkpoints
+
+# But KEEP processed outputs
+!Data/Parquet/
+!Data/Parquet/*.parquet
+
+# Results (keep figures, not temp files)
+results/*.tmp
+results/cache/
+
+# VSCode
+.vscode/settings.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
