@@ -19,6 +19,7 @@ venv/
 Data/*.csv
 Data/**/*.csv
 Data/CalCOFIapi/
+*.csv 
 
 # Jupyter outputs
 *.ipynb_checkpoints
