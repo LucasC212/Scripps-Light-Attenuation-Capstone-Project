@@ -1,0 +1,14 @@
+{
+  "n_samples": 1971,
+  "features": [
+    "ESTCHL_SUMMED",
+    "K_PAR",
+    "XMISS_SUMMED"
+  ],
+  "cv_r2_mean": 0.7527789515357693,
+  "cv_r2_std": 0.019750041661117934,
+  "cv_rmse_mean": 4.340193664012901,
+  "cv_rmse_std": 0.2010251904141356,
+  "full_r2": 0.9072455099622183,
+  "full_rmse": 2.6665271472245036
+}
