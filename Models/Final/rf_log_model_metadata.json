@@ -6,9 +6,11 @@
     "XMISS_SUMMED"
   ],
   "cv_r2_mean": 0.7764192638380931,
-  "cv_r2_std": 0.01922944032682234,
+  "cv_r2_std": 0.019229440326822386,
   "cv_rmse_mean": 0.2366032701131116,
   "cv_rmse_std": 0.007632031709594941,
-  "full_r2": 0.9149055192534901,
-  "full_rmse": 0.14667537727959795
+  "full_r2": 0.895795259218219,
+  "full_rmse": 2.8263261533260753,
+  "target_transform": "log",
+  "note": "Model predicts log(Secchi). Use np.exp() to back-transform."
 }
