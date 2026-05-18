@@ -1,17 +1,18 @@
 POLYNOMIAL REGRESSION EQUATION FOR SECCHI DEPTH (DEGREE 2)
 ================================================================================
 
-LOG(Secchi) = -0.003732 × ESTCHL_SUMMED
-       + 0.137695 × K_PAR_SLOPE
-       + 0.020639 × DEPTH
-       + 0.000039 × ESTCHL_SUMMED^2
-       - 0.015728 × ESTCHL_SUMMED K_PAR_SLOPE
-       - 0.000350 × ESTCHL_SUMMED DEPTH
-       - 0.001702 × K_PAR_SLOPE^2
-       - 0.012623 × K_PAR_SLOPE DEPTH
-       - 0.000087 × DEPTH^2
-       + 2.403603
+LOG(Secchi) = -0.016965 × ESTCHL_SUMMED
+       - 0.000013 × XMISS_SUMMED
+       - 0.244368 × K_PAR_SLOPE
+       + 0.000075 × ESTCHL_SUMMED^2
+       - 0.000003 × ESTCHL_SUMMED XMISS_SUMMED
+       - 0.009924 × ESTCHL_SUMMED K_PAR_SLOPE
+       + 0.000000 × XMISS_SUMMED^2
+       - 0.000098 × XMISS_SUMMED K_PAR_SLOPE
+       + 0.021064 × K_PAR_SLOPE^2
+       + 3.085881
 
 Performance:
-  R²:   0.7039
-  RMSE: 0.2728 m
+  R²:   0.6102
+  RMSE: 0.3130 m
+  MAE:  0.2516 m
