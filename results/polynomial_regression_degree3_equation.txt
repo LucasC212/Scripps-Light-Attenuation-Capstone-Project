@@ -22,7 +22,11 @@ LOG(Secchi) = -0.033478 × ESTCHL_SUMMED
        - 0.002220 × K_PAR_SLOPE^3
        + 3.254032
 
-Performance:
+5-Fold CV Performance (log scale, on 80% train set):
+  CV R²:   -0.3427 ± 1.6669
+  CV RMSE: 0.4802 ± 0.2963
+
+Held-out Test Set Performance (20%):
   R²:   0.7018
   RMSE: 0.2738 m
   MAE:  0.2130 m
